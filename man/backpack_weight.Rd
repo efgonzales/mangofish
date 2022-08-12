@@ -4,9 +4,11 @@
 \alias{backpack_weight}
 \title{Calculate backpack weight based on weight of items inside.}
 \usage{
-backpack_weight(lunch, laptop, jacket)
+backpack_weight(pack, lunch, laptop, jacket)
 }
 \arguments{
+\item{pack}{weight of empty pack in g}
+
 \item{lunch}{weight of lunchbox in g}
 
 \item{laptop}{weight of laptop in g}
@@ -20,5 +22,5 @@ weight of entire backpack in g
 Calculate backpack weight based on weight of items inside.
 }
 \examples{
-backpack_weight(lunch = 2000, laptop = 1120, jacket = 1050)
+backpack_weight(pack = 5000, lunch = 2000, laptop = 1120, jacket = 1050)
 }
